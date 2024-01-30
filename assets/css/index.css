@@ -4,7 +4,10 @@
 .section1{
     padding: 10px;
 }
-
 .card{
     padding: 5px;
+}
+.section2{
+    padding-left: 10px;
+    padding-right: 10px;
 }
