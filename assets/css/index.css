@@ -1,8 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+.cabecera .navbar{
+    background-color: #F2EBEB;
+    padding: 1%;
+}
 
 
 .section1{
-    padding: 10px;
+    padding: 0%;
 }
 .card{
     padding: 5px;
@@ -10,4 +20,8 @@
 .section2{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.hero1 h5{
+    color: #F25E3D;
 }
