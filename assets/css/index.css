@@ -1,27 +1,82 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-*{
-    font-family: "Roboto Mono", monospace;
+* {
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecera .navbar{
+
+
+/* Cabecera */
+
+.cabecera .navbar {
+    background-color: #F2EBEB;
+    text-align: center;
+   
+}
+.navbar a {
+    color: #F25E3D;
+}
+
+/*Carrusel*/
+
+.hero1 h5 {
+    color: #F25E3D;
+    font-size: 2em;
+}
+
+.hero1 p {
+    font-size: 1.3em;
+    color: #D9BCA3;
+}
+
+
+/*card*/
+
+main {
+    background-color: #F2EBEB;
+}
+
+.section1 {
+    /* display: flex;
+    justify-content: space-around; */
     background-color: #F2EBEB;
     padding: 1%;
 }
 
+/* .section1 .card-group {
+    display: flex;
+  
+    justify-content: space-between;
+} */
 
-.section1{
-    padding: 0%;
-}
-.card{
-    padding: 5px;
-}
-.section2{
-    padding-left: 10px;
-    padding-right: 10px;
+.card {
+    border-style: none;
+    padding: 20px 20px 20px 20px;
+    background-color: #F2EBEB;
+
 }
 
-.hero1 h5{
-    color: #F25E3D;
+.card h5 {
+    color: #402E2C;
+    text-align: center;
+}
+
+
+
+
+
+/*seccion 2*/
+
+
+
+.container {
+
+    background-color: #F2EBEB;
+}
+
+/*footer*/
+
+footer {
+    background-color: #F2EBEB;
 }
