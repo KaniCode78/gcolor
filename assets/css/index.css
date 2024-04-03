@@ -10,10 +10,11 @@
 /* Cabecera */
 
 .cabecera .navbar {
-    background-color: #F2EBEB;
+    background-color: none;
     text-align: center;
-   
+
 }
+
 .navbar a {
     color: #F25E3D;
 }
