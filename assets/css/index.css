@@ -409,6 +409,7 @@ a {
 .servicios__texto p {
     text-align: justify;
     padding-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .servicios__texto ul {
