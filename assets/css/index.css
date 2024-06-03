@@ -39,6 +39,15 @@ a {
     text-decoration: none;
 }
 
+ul,
+li {
+    list-style: circle;
+    font-size: 2rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+}
+
+
 img {
     min-width: 100%;
 }
@@ -107,6 +116,19 @@ a {
 
 .navbar a:hover {
     color: darkturquoise;
+}
+
+@media (max-width:640px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar a {
+        display: none;
+        justify-content: space-around;
+        text-align: center;
+        color: var(--blanco);
+    }
 }
 
 
@@ -235,7 +257,7 @@ a {
     font-weight: 900;
 }
 
-.about_texto h2{
+.about_texto h2 {
     padding-bottom: 4rem;
     font-size: 4rem;
     font-weight: lighter;
@@ -251,7 +273,7 @@ a {
 
 
 /*galeria*/
-.galeria{
+.galeria {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -269,7 +291,7 @@ a {
     position: relative;
 }
 
-.gallery__item:hover{
+.gallery__item:hover {
     transform: scale(1.1);
     transition: all.3s ease-in-out;
     cursor: pointer;
@@ -336,25 +358,110 @@ a {
 @media (min-width: 1024px) {
     .gallery-container {
         grid-template-columns: repeat(5, 1fr);
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
     .gallery__item:nth-child(1) {
         grid-column-start: span 2;
-        grid-row-start:span 2 ;
+        grid-row-start: span 2;
     }
 
     .gallery__item:nth-child(4) {
         grid-column-start: span 3;
-        grid-row-start:span 3 ;
+        grid-row-start: span 3;
     }
 
+}
 
-    
+/* termina galeria*/
 
+
+/*estilos servicios*/
+
+.section2 {
+    padding-top: 0rem;
+    padding-bottom: 10rem;
+}
+
+.section2 h2 {
+    padding-bottom: 5rem;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.servicios__texto {
+    flex-basis: 50%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.servicios__texto h2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.servicios__texto p {
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.servicios__texto ul {
+    padding-left: 15rem;
+}
+
+
+.servicios__imagen {
+    flex-basis: 50%;
 }
 
 
 
-/*galeria*/
+@media (max-width:960px) {}
+
+
+
+
+/*Slide de Clientes*/
+
+.slider {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.slider h2{
+    padding-bottom: 5rem;
+}
+.slide-track{
+    padding-bottom: 5rem;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    /* -webkit-animation: scroll 40s linear infinite; */
+    width: calc(300px * 14);
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+/*Termina Slide de Clientes*/
