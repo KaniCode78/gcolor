@@ -517,7 +517,6 @@ a {
 }
 
 .footer input {
-    
     border-bottom:1rem solid #000;
     background: none;
     font-weight: 500;
@@ -526,7 +525,6 @@ a {
     width: 100%;
     font-size: 2rem;
     font-weight: bolder;
-    
 }
 
 .footer input:focus {
