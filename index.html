@@ -17,10 +17,10 @@
         <div class="navbar fixed-top bg-black">
             <h1>Grupo Color</h1>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Quienes Somos</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contacto</a>
+                <a href="index.html">Home</a>
+                <a href="#about">Quienes Somos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
 
             </nav>
         </div>
@@ -60,7 +60,7 @@
             </div>
         </article>
 
-        <article class="about">
+        <article class="about" id="about">
             <div class="about_texto">
                 <h2>Quienes Somos</h2>
                 <p>Con más de 10 años de experiencia en el mercado de la construcción, nos especializamos en la creación
@@ -130,7 +130,7 @@
 
 
 
-        <section class="section2">
+        <section class="section2" id="servicios">
             <h2>Conoce Nuestros Servicios</h2>
 
             <div class="servicios row-cols-12">
@@ -154,9 +154,9 @@
                 </div>
             </div>
 
-            <div class="servicios row-cols-12">
-                <div class="servicios__texto">
-                    <h2>Vivienda </h2>
+            <div class="servicios vivenda row-cols-12">
+                <div class="servicios__texto ">
+                    <h2>Vivienda</h2>
                     <p>
                         Nos especializamos en ofrecer servicios integrales de construcción y diseño de viviendas,
                         brindando soluciones personalizadas y de alta calidad que satisfacen las necesidades y
@@ -253,7 +253,7 @@
 
 
 
-            <section class="contacto container">
+            <section class="contacto container" id="contacto">
                 <h2>Contacto</h2>
                 <div class="mb-3 row-cols-12">
                     <label for="formGroupExampleInput" class="form-label">Nombre</label>
@@ -280,21 +280,28 @@
     <footer>
         <div class="footer">
             <div class="footer__contacto">
+                <form action="">
                 <p>
                     Recibe actualizaciones sobre nuestros nuevos proyectos que probablemente quieras saber en tu bandeja de entrada.
                 </p>
+                <div>
                 <input type="text" placeholder="Email">
+            </div>
+               <div class="btn-forma">
                 <button type="submit" class="btn">
                     Enviar
                 </button>
+               </div>
+
+            </form>
             </div>
             <div class="footer__menu">
                 <h3>Link</h4>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Servicios</li>
-                    <li>Quienes Somos</li>
-                    <li>Contacto</li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#servicios">Servicios </a></li>
+                    <li><a href="#about">Quienes Somos</a></li>
+                    <li><a href="#contacto">Contacto </a></li>
                 </ul>
             </div>
             <div></div>
@@ -310,7 +317,7 @@
         <!-- Copyright -->
         <div class="text-center p-3">
             © 2024 Copyright:
-            <a class="text-body" href="https://www.rodriguezmora.com.mx">Kani Code</a>
+            <a class="text-body" href="https://www.rodriguezmora.com.mx">Kani Code Made 2024</a>
         </div>
         <!-- Copyright -->
     </footer>
