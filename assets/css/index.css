@@ -92,6 +92,7 @@ a {
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     color: var(--blanco);
 }
@@ -109,6 +110,13 @@ a {
 
 .navbar a:hover {
     color: var(--primarioOscuro);
+}
+
+.img_logo{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 35rem;
+    height: 4rem;
 }
 
 @media (max-width:640px) {
