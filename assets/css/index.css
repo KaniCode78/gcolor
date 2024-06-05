@@ -609,13 +609,14 @@ a {
     padding-right: 10rem;
     padding-bottom: 5rem;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     border-top: solid 2px var(--negro);
 }
 
 
 .footer__contacto {
-    flex-basis: 50%;
+    flex-basis: 33.3%;
     padding: 3rem;
     gap: 2rem;
 }
@@ -623,9 +624,9 @@ a {
 .footer__contacto p {
     padding-bottom: 2rem;
     font-weight: lighter;
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
 }
 
 .footer input {
@@ -653,11 +654,27 @@ input::placeholder {
 
 }
 
+.img_logo_footer{
+    padding-top: 5rem;
+    flex-basis: 33.3;
+    justify-content: center;
+    
+}
+
+.img_logo_footer img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+
+
+
+
 .footer__menu {
-    flex-basis: 50%;
+    flex-basis: 33.3%;
     font-weight: 900;
-    padding: 3rem;
-    padding-left: 20rem;
+    padding: 1rem;
     text-align: center;
 }
 
