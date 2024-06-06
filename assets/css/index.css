@@ -8,7 +8,6 @@
     --blanco: #fff;
     --negro: #000;
     --gris: #9b9b9b;
-
     --sobraTexto: rgba(255, 255, 255, .75);
     --fondoBody: rgba(255, 255, 255, .3);
     --sombraCard: #EBEBEB;
@@ -95,6 +94,8 @@ a {
     flex-direction: row;
     justify-content: space-around;
     color: var(--blanco);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navbar h1 {
