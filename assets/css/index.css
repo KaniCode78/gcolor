@@ -644,11 +644,14 @@ a {
 
 .footer input:focus {
     outline: none;
+    
 }
 
 input::placeholder {
     color: var(--negro);
 }
+
+
 
 .btn-forma {
     padding-top: 2rem;
@@ -659,7 +662,6 @@ input::placeholder {
     padding-top: 5rem;
     flex-basis: 33.3;
     justify-content: center;
-    
 }
 
 .img_logo_footer img{
